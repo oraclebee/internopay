@@ -7,7 +7,7 @@ export default function Home(){
         <>
             <Header/>
             <CurrencyConvertion/>
-            <h1>News Feeds</h1>
+            <h1>Financial Feeds</h1>
             <NewsFeed/>
         </>
     )
