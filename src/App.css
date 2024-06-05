@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+
+/* Currency Conversion */
+.currencyConversion {
+  display: flex;
+  /* flex-flow: row wrap; */
+  gap: 20px;
+  padding: 20px;
+}
+
+.btn-custom {
+  background-color: #02b7ef;
+  color: white;
+  border: none;
+}
+
+.btn-custom:hover {
+  background-color: darken(#02b7ef, 10%); /* Optional: Darken on hover */
+  color: white;
+}
+
+.internopay-logo {
+  width: 300px;
+}
+
+.form-but {
+  gap: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .internopay-logo {
+    width: 200px;
+  }
+  .currencyConversion {
+    flex-flow: column wrap;
+  }
+}
