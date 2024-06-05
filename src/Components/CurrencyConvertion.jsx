@@ -19,6 +19,8 @@ export default function CurrencyConversion() {
             apiKey = process.env.REACT_APP_EXCHANGERATES_API_KEY; // Ensure your environment variable is properly prefixed
         }
 
+        apiKey = process.env.REACT_APP_EXCHANGERATES_API_KEY
+
         var myHeaders = new Headers();
         myHeaders.append("apikey", apiKey);
 
