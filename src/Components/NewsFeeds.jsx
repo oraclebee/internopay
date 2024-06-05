@@ -11,8 +11,9 @@ export default function NewsFeed() {
     }, []);
 
     const fetchNews = async () => {
+        let apiKey = process.env.REACT_APP_NEWSFEEDS_API_KEY; // c3dea401179249dd8b8071db0f490c87
         try {
-            const response = await fetch('https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=c3dea401179249dd8b8071db0f490c87');
+            const response = await fetch(`https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=${apiKey}`);
             const data = await response.json();
             setArticles(data.articles);
             setLoading(false);

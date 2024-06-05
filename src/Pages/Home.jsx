@@ -1,6 +1,7 @@
 import CurrencyConvertion from "../Components/CurrencyConvertion";
 import Header from "../Components/Header";
-// import NewsFeed from "../Components/NewsFeeds";
+// import StockMarketReports from "../Components/StockMarketReports";
+import NewsFeed from "../Components/NewsFeeds";
 
 export default function Home(){
     return (
@@ -8,7 +9,8 @@ export default function Home(){
             <Header/>
             <CurrencyConvertion/>
             <h1>Financial Feeds</h1>
-            {/* <NewsFeed/> */}
+            {/* <StockMarketReports/> */}
+            <NewsFeed/>
         </>
     )
 }
