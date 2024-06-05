@@ -1,8 +1,8 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 
-export default function CurrencyConvertion() {
+export default function CurrencyConversion() {
     const [amountTo, setAmountTo] = useState("");
     const [amountFrom, setAmountFrom] = useState("");
     const [currencyTo, setCurrentTo] = useState("");
@@ -16,7 +16,7 @@ export default function CurrencyConvertion() {
             apiKey = "ZEOcbrQz5MhCJ7U7O5hlwaTrjICVjjtU"; // Replace with your local API key
         } else {
             // Deployed environment
-            apiKey = process.env.REACT_APP_EXCHANGERATES_API_KEY; // Ensure your environment variable is properly prefixed
+            apiKey = process.env.EXCHANGERATES_API_KEY; // Ensure your environment variable is properly prefixed
         }
 
         var myHeaders = new Headers();
@@ -39,7 +39,6 @@ export default function CurrencyConvertion() {
         } catch (error) {
             console.log('error', error);
         }
-
     }
 
     return (
