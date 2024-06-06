@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import '../Resources/CSS/NewsFeed.css'; // Import custom CSS for styling
+import '../Resources/NewsFeed.css'; // Import custom CSS for styling
 import Logo from '../Resources/Images/internopay_logo.png'; // Ensure this path is correct
 
 export default function NewsFeed() {
@@ -15,6 +15,8 @@ export default function NewsFeed() {
         try {
             const apiKey = process.env.REACT_APP_EXCHANGERATES_API_KEY || "c3dea401179249dd8b8071db0f490c87"; // Ensure your environment variable is set in Vercel
             const response = await fetch(`https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=${apiKey}`);
+
+// https://newsapi.org/v2/top-headlines?country=us&language=en&pageSize=10&category=sports&sortBy=title//
             if (!response.ok) {
                 throw new Error(`HTTP error! Status: ${response.status}`);
             }

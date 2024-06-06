@@ -1,5 +1,5 @@
 import React from 'react';
-// import '../Resources/ChatPage.css'; // Import custom CSS for styling
+import '../Resources/ChatPage.css'; // Import custom CSS for styling
 import Logo from '../Resources/Images/internopay_logo.png';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -25,7 +25,7 @@ function Header() {
                                 <NavDropdown.Item href="#action3">Africoin</NavDropdown.Item>
                             </NavDropdown>
                             <Nav.Link href="#action2">Economics</Nav.Link>
-                            <Nav.Link href="#action2">Industries</Nav.Link>
+                            <Nav.Link href="industries">Industries</Nav.Link>
                             <Nav.Link href="#action2">Tech</Nav.Link>
                             <NavDropdown title="More" id="navbarScrollingDropdown">
                                 <NavDropdown.Item href="#action3">Opinion</NavDropdown.Item>

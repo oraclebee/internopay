@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .App-logo {
@@ -63,11 +63,7 @@
 .form-but {
   gap: 10px;
 }
-.stockList {
-  display: flex;
-  flex-flow: row wrap;
-  gap: 20px;
-}
+
 @media screen and (max-width: 768px) {
   .internopay-logo {
     width: 200px;
@@ -75,13 +71,4 @@
   .currencyConversion {
     flex-flow: column wrap;
   }
-}
-
-
-/* src/components/CurrencyConverter.css */
-.currency-flag {
-  width: 20px;
-  height: 15px;
-  margin-right: 8px;
-  vertical-align: middle;
 }
