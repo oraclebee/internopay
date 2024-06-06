@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Resources/ChatPage.css'; // Import custom CSS for styling
+// import '../Resources/ChatPage.css'; // Import custom CSS for styling
 import Logo from '../Resources/Images/internopay_logo.png';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

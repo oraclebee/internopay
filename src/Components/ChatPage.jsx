@@ -1,7 +1,8 @@
 // ChatPage.js
 
 import React, { useState } from 'react';
-import '../Resources/ChatPage.css'; // Import custom CSS for styling
+// import '../Resources/CSS/ChatPage.css'; // Import custom CSS for styling
+import '../Resources/CSS/ChatPage.css'; // Import custom CSS for styling
 
 export default function ChatPage() {
     const [messages, setMessages] = useState([]);

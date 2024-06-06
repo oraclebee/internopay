@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import '../Resources/NewsFeed.css'; // Import custom CSS for styling
+import '../Resources/CSS/NewsFeed.css'; // Import custom CSS for styling
 import Logo from '../Resources/Images/internopay_logo.png'; // Ensure this path is correct
 
 export default function NewsFeed() {
