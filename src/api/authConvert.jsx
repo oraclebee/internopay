@@ -1,10 +1,8 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
-let ApiKey ='0da537d340mshc80cdfd3774d48ep1fb564jsnbf1c0de925d6'
-//! https://apyhub.com/dashboard
-//! https://currency-conversion-and-exchange-rates.p.rapidapi.com
-//! https://countrylayer.com/documentation/
-//! https://news-api14.p.rapidapi.com/top-headlines
-const baseUrl ='https://currency-conversion-and-exchange-rates.p.rapidapi.com'
+// let ApiKey ='0da537d340mshc80cdfd3774d48ep1fb564jsnbf1c0de925d6';
+let ApiKey = process.env.REACT_APP_EXCHANGERATES_API_KEY || '0da537d340mshc80cdfd3774d48ep1fb564jsnbf1c0de925d6'; // Replace with your actual API key
+
+const baseUrl ='https://currency-conversion-and-exchange-rates.p.rapidapi.com';
 export const authConvert = createApi({
     reducerPath: 'convertApi',
     baseQuery: fetchBaseQuery({

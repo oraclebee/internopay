@@ -1,6 +1,7 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
 // let ApiKey ='0da537d340mshc80cdfd3774d48ep1fb564jsnbf1c0de925d6'
-const ApiKey ="c3dea401179249dd8b8071db0f490c87"
+// const ApiKey ="c3dea401179249dd8b8071db0f490c87";
+const ApiKey = process.env.REACT_APP_NEWSFEEDS_API_KEY || "c3dea401179249dd8b8071db0f490c87"; // Ensure your environment variable is set in Vercel
 // const baseUrl ='https://news-api14.p.rapidapi.com/top-headlines'
 const baseUrl ='https://newsapi.org/v2/top-headlines'
 
