@@ -53,6 +53,7 @@ export default function Industries() {
                 title={article.title}
                 description={article.description}
                 publishedAt={article.publishedAt}
+                url={article.url}
               />
             </Col>
           ))}
@@ -65,6 +66,7 @@ export default function Industries() {
                   title={article.title}
                   description={article.description}
                   publishedAt={article.publishedAt}
+                  url={article.url}
                 />
               </Col>
             ))}
