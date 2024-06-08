@@ -182,7 +182,7 @@ export default function CurrencyConversion() {
               informational purposes only. You won’t receive this rate when
               sending money.
             </p>
-            <Link to={"/"}>Login to view send rates</Link>
+            <Link to={"/register"}>Login to view send rates</Link>
           </div>
         </Col>
         <Col xs={12} sm={6}  className="d-flex justify-content-end">

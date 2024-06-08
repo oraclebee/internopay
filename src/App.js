@@ -10,6 +10,8 @@ import TechnologyPage from './Pages/TechnologyPage';
 import PoliticsPage from './Pages/PoliticsPage';
 import BusinessweekPage from './Pages/BusinessweekPage';
 import OpinionPage from './Pages/OpinionPage';
+import RegisterPage from './Pages/RegisterPage';
+import LoginPage from './Pages/LoginPage';
 
 
 
@@ -27,6 +29,8 @@ function App() {
           <Route path='/businessweek' element={<BusinessweekPage />} />
           <Route path='/opinion' element={<OpinionPage />} />
           <Route path='/internopaygpt' element={<InterNoPayGPT />} />
+          <Route path='/register' element={<RegisterPage />} />
+          <Route path='/login' element={<LoginPage />} />
           <Route path='*' element={<Home />} />
           </Route>
           </Routes>
