@@ -4,9 +4,10 @@ import { Col, Row, Stack, Spinner, Alert } from 'react-bootstrap';
 import NewsCard from '../Components/shared/NewsCard';
 import Data from './../constant/data.json'
 
-export default function Industries() {
+
+export default function PoliticsPage() {
   const { isFetching: isFetchingGetNews, isLoading: isLoadingGetNews, data: GetNewsData, error: GetNewsError, isError: isGetNewsError } = useGetNewsQuery({
-    category: 'business'
+    category: 'sports'
   });
 
   // if (isLoadingGetNews || isFetchingGetNews) {
@@ -29,7 +30,7 @@ export default function Industries() {
 
   return (
     <section>
-      <h1 className='text-capitalize py-3'>Industries</h1>
+      <h1 className='text-capitalize py-3'>Politics</h1>
       <Stack gap={3}>
       
           {Data?.articles && Data.articles.length > 0 && (
@@ -76,5 +77,5 @@ export default function Industries() {
         </Row>
       </Stack>
     </section>
-  );
+  )
 }

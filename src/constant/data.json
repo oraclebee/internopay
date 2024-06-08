@@ -1,0 +1,266 @@
+{
+    "status": "ok",
+    "totalResults": 54,
+    "articles": [
+        {
+            "source": {
+                "id": null,
+                "name": "CNBC"
+            },
+            "author": "Brian Evans, Tanaya Macheel",
+            "title": "Stock futures slide after better-than-expected jobs report boosts yields: Live updates - CNBC",
+            "description": "Traders are digested the May nonfarm payrolls report, which rose more than expected.",
+            "url": "https://www.cnbc.com/2024/06/06/stock-market-today-live-updates.html",
+            "urlToImage": "https://image.cnbcfm.com/api/v1/image/107406472-17140668572024-04-25t171044z_1286625918_rc2pd7ajq8l1_rtrmadp_0_usa-stocks.jpeg?v=1714141037&w=1920&h=1080",
+            "publishedAt": "2024-06-07T12:41:00Z",
+            "content": "Stock futures fell Friday after a stronger-than-expected May jobs report sent yields higher and dashed hopes the Federal Reserve would cut interest rates soon.\r\nFutures tied to the Dow Jones Industri… [+1548 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CNBC"
+            },
+            "author": "Jeff Cox",
+            "title": "U.S. job gains totaled 272,000 in May, more than expected - CNBC",
+            "description": "Nonfarm payrolls were expected to increase by 190,000 in May, according to economists surveyed by Dow Jones.",
+            "url": "https://www.cnbc.com/2024/06/07/jobs-report-may-2024-us-job-gains-totaled-272000-in-may.html",
+            "urlToImage": "https://image.cnbcfm.com/api/v1/image/106994945-1640872261955-gettyimages-1357001807-dsc07291_160cbf5e-18ea-48aa-bc4e-e1e0bec64b78.jpeg?v=1640872338&w=1920&h=1080",
+            "publishedAt": "2024-06-07T12:31:04Z",
+            "content": "The U.S. economy added far more jobs than expected in May, countering fears of a slowdown in the labor market and likely reducing the Federal Reserve's impetus to lower interest rates.\r\nNonfarm payro… [+3532 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Yahoo Entertainment"
+            },
+            "author": "David Randall and Sruthi Shankar",
+            "title": "GameStop spooks investors with share sale, results ahead of \"Roaring Kitty\" livestream - Yahoo Finance",
+            "description": "(Reuters) -GameStop posted a decline in quarterly sales and said it would sell up to 75 million shares, in a surprise move on Friday ahead of a much...",
+            "url": "https://finance.yahoo.com/news/meme-stock-world-waits-bated-100759772.html",
+            "urlToImage": "https://media.zenfs.com/en/reuters-finance.com/dddc4e747a4a2fbe6b93cda68ba5f6ba",
+            "publishedAt": "2024-06-07T12:06:58Z",
+            "content": "By David Randall and Sruthi Shankar\r\n(Reuters) -GameStop posted a decline in quarterly sales and said it would sell up to 75 million shares, in a surprise move on Friday ahead of a much-anticipated l… [+3796 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "[Removed]"
+            },
+            "author": null,
+            "title": "[Removed]",
+            "description": "[Removed]",
+            "url": "https://removed.com",
+            "urlToImage": null,
+            "publishedAt": "1970-01-01T00:00:00Z",
+            "content": "[Removed]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CNBC"
+            },
+            "author": "Michael Wayland",
+            "title": "GM has a secret to help sell its new EVs. It's Costco. - CNBC",
+            "description": "GM North America President Marissa West told CNBC that she's \"bullish\" on Costco Auto and is asking her team \"to see how we can build this partnership.\"",
+            "url": "https://www.cnbc.com/2024/06/07/gm-costco-auto-program-evs.html",
+            "urlToImage": "https://image.cnbcfm.com/api/v1/image/107264528-1688040086685-gettyimages-1503701962-_53a3973.jpeg?v=1717690646&w=1920&h=1080",
+            "publishedAt": "2024-06-07T11:00:01Z",
+            "content": "Customers exit a Costco store in Teterboro, New Jersey, June 28, 2023.\r\nDETROIT General Motors has a not-so-secret weapon when it comes to getting U.S. consumers into its new all-electric vehicles: C… [+6889 chars]"
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "Reuters",
+            "title": "Stock market rally pauses as US jobs data looms - Reuters",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMiQ2h0dHBzOi8vd3d3LnJldXRlcnMuY29tL21hcmtldHMvZ2xvYmFsLW1hcmtldHMtd3JhcHVwLTEtMjAyNC0wNi0wNy_SAQA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2024-06-07T10:27:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "[Removed]"
+            },
+            "author": null,
+            "title": "[Removed]",
+            "description": "[Removed]",
+            "url": "https://removed.com",
+            "urlToImage": null,
+            "publishedAt": "1970-01-01T00:00:00Z",
+            "content": "[Removed]"
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "USA TODAY",
+            "title": "Do you need a million dollars to retire? A top economist says no. - USA TODAY",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMiXWh0dHBzOi8vd3d3LnVzYXRvZGF5LmNvbS9zdG9yeS9tb25leS8yMDI0LzA2LzA3L3JldGlyZS13aXRob3V0LWEtbWlsbGlvbi1kb2xsYXJzLzczOTY5NzE3MDA3L9IBAA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2024-06-07T09:16:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "Yahoo Finance",
+            "title": "Nvidia Stock Shocks the World Ahead of Its 10-for-1 Stock Split. Here's What's Next for Investors. - Yahoo Finance",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMiTWh0dHBzOi8vZmluYW5jZS55YWhvby5jb20vbmV3cy9udmlkaWEtc3RvY2stc2hvY2tzLXdvcmxkLWFoZWFkLTA5MTUwMDQxOS5odG1s0gEA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2024-06-07T09:15:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "New York Post"
+            },
+            "author": "Brooke Steinberg",
+            "title": "National Donut Day 2024 deals and freebies: Dunkin', Krispy Kreme and more - New York Post ",
+            "description": "You donut want to miss out on theses deals!",
+            "url": "https://nypost.com/2024/06/07/lifestyle/national-donut-day-2024-deals-and-freebies-dunkin-krispy-kreme-and-more/",
+            "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2024/06/83362226.jpg?quality=75&strip=all&w=1024",
+            "publishedAt": "2024-06-07T09:00:00Z",
+            "content": "You donut want to miss out on theses deals!\r\nNational Donut Day is Friday, June 7, and there’s no better way to celebrate than grabbing the delicious treat for free or at a discounted price.\r\nThe foo… [+4510 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Barron's"
+            },
+            "author": "Barron's",
+            "title": "Nvidia's Stock Split Is Nearly Here. What Happens Next. - Barron's",
+            "description": null,
+            "url": "https://www.barrons.com/articles/nvidia-stock-split-price-today-e2225f52",
+            "urlToImage": null,
+            "publishedAt": "2024-06-07T08:22:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CNBC"
+            },
+            "author": "Sam Meredith",
+            "title": "Credit Suisse bondholders sue Switzerland in the U.S. over $17 billion writedown of AT1 debt - CNBC",
+            "description": "A group of Credit Suisse bondholders have filed a lawsuit over the Swiss government's decision to write down the failed bank's Additional Tier 1 debt.",
+            "url": "https://www.cnbc.com/2024/06/07/credit-suisse-bondholders-sue-switzerland-over-17-billion-at1-wipeout.html",
+            "urlToImage": "https://image.cnbcfm.com/api/v1/image/107215099-1679694376490-gettyimages-1249282050-AFP_33BZ7HC.jpeg?v=1717740943&w=1920&h=1080",
+            "publishedAt": "2024-06-07T07:23:32Z",
+            "content": "A group of Credit Suisse bondholders filed a lawsuit against the Swiss government, seeking full compensation over the contentious decision to write down the failed bank's Additional Tier 1 (AT1) debt… [+2061 chars]"
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "The New York Times",
+            "title": "Samsung Workers Strike, the First in the Company's History - The New York Times",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMiS2h0dHBzOi8vd3d3Lm55dGltZXMuY29tLzIwMjQvMDYvMDYvYnVzaW5lc3Mvc2Ftc3VuZy1maXJzdC1zdHJpa2UtY2hpcHMuaHRtbNIBAA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2024-06-07T06:21:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "Financial Times",
+            "title": "China's exports surge in May - Financial Times",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMiP2h0dHBzOi8vd3d3LmZ0LmNvbS9jb250ZW50LzFkMjM2YjQ2LTFhNjUtNDhiNy1iM2Q2LWZhYTA4NDlkM2QzZtIBAA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2024-06-07T05:34:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "BBC News"
+            },
+            "author": null,
+            "title": "Jensen Huang: Nvidia boss christened the Taylor Swift of tech - BBC.com",
+            "description": "Nvidia CEO Jensen Huang has nothing short of rock star status, which is on full display at events.",
+            "url": "https://www.bbc.com/news/articles/cq55ek28z98o",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/50b0/live/81886b00-2466-11ef-baa7-25d483663b8e.jpg",
+            "publishedAt": "2024-06-07T03:45:10Z",
+            "content": "Annabelle Liang,Business reporter\r\nMr Huang was a draw for attendees of Taiwan's Computex event\r\nThese days, wherever Jensen Huang goes, adoring crowds chant his name and scramble for selfies and aut… [+4163 chars]"
+        },
+        {
+            "source": {
+                "id": "politico",
+                "name": "Politico"
+            },
+            "author": "POLITICO",
+            "title": "Biden's big new push against AI companies faces a Trump-shaped obstacle - POLITICO",
+            "description": null,
+            "url": "https://www.politico.com/news/2024/06/06/biden-trump-ai-antitrust-00162200",
+            "urlToImage": null,
+            "publishedAt": "2024-06-06T23:55:10Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "bloomberg",
+                "name": "Bloomberg"
+            },
+            "author": null,
+            "title": "Moody's May Cut Six US Banks on Commercial Real Estate Exposure - Bloomberg",
+            "description": null,
+            "url": "https://www.bloomberg.com/news/articles/2024-06-06/moody-s-may-cut-six-us-banks-on-commercial-real-estate-exposure",
+            "urlToImage": null,
+            "publishedAt": "2024-06-06T23:52:42Z",
+            "content": "To continue, please click the box below to let us know you're not a robot."
+        },
+        {
+            "source": {
+                "id": "the-hill",
+                "name": "The Hill"
+            },
+            "author": "Lauren Irwin",
+            "title": "GameStop shares surge after ‘Roaring Kitty’ schedules YouTube live for Friday - The Hill",
+            "description": "GameStop stock soared Thursday after “Roaring Kitty,” the originator of the meme stock frenzy, scheduled a YouTube live event for Friday. The livestream is scheduled for June 7 at 12 p.m. ET and already had nearly 13,000 people waiting for it to begin. Busine…",
+            "url": "https://thehill.com/business/4708967-gamestop-shares-surge-roaring-kitty-youtube-live/",
+            "urlToImage": "https://thehill.com/wp-content/uploads/sites/2/2023/09/64ff8162418df1.43745664-e1715614407676.jpeg?w=1280",
+            "publishedAt": "2024-06-06T23:41:00Z",
+            "content": "Skip to content\r\nGameStop stock soared Thursday after “Roaring Kitty,” the originator of the meme stock frenzy, scheduled a YouTube live event for Friday.\r\nThe livestream is scheduled for June 7 at 1… [+1374 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Fox Business"
+            },
+            "author": "Eric Revell",
+            "title": "See it: Rivian unveils redesigned all-electric SUV and pickup - Fox Business",
+            "description": "Electric vehicle maker Rivian unveiled its newly redesigned second-generation R1S SUV and R1T pickup truck. The all-electric R1S and R1T were fully redesigned by the automaker.",
+            "url": "https://www.foxbusiness.com/lifestyle/see-rivian-unveils-redesigned-all-electric-suv-pickup",
+            "urlToImage": "https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2024/06/0/0/Rivian-R1S-24.jpg?ve=1&tl=1",
+            "publishedAt": "2024-06-06T23:11:00Z",
+            "content": "Electric vehicle maker Rivian introduced its redesigned, second-generation EV pickup and SUV Thursday.\r\nRivian's new R1S SUV and R1T pickup were fully reengineered with hardware improvements, perform… [+3107 chars]"
+        },
+        {
+            "source": {
+                "id": "cbs-news",
+                "name": "CBS News"
+            },
+            "author": "Steven Rosenbaum",
+            "title": "All five Dallas-area Alamo Drafthouse locations closing immediately due to bankruptcy filing - CBS News",
+            "description": "The closures will impact hundreds of employees at locations in Dallas, Richardson, Las Colinas, Lake Highlands and Denton.",
+            "url": "https://www.cbsnews.com/texas/news/dallas-alamo-drafthouse-locations-closing-immediately-bankruptcy/",
+            "urlToImage": "https://assets1.cbsnewsstatic.com/hub/i/r/2024/06/06/4057fa75-a326-48ad-becf-d6afec6a220b/thumbnail/1200x630/870c4868d48d00124fe91be50f1f2dce/gettyimages-1211451809.jpg?v=94cbb61397dbf7eca3740fa55510ba88",
+            "publishedAt": "2024-06-06T22:39:49Z",
+            "content": "DALLAS – The company operating the Alamo Drafthouse movie theaters in North Texas has declared bankruptcy, abruptly closing its six locations.\r\nThe closures will impact 600 employees at five location… [+1740 chars]"
+        }
+    ]
+}

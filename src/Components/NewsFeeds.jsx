@@ -1,9 +1,10 @@
-import React, { useState, useEffect } from "react";
+// import React, { useState, useEffect } from "react";
 import "../Resources/NewsFeed.css"; // Import custom CSS for styling
-import Logo from "../Resources/Images/internopay_logo.png"; // Ensure this path is correct
+// import Logo from "../Resources/Images/internopay_logo.png"; _// Ensure this path is correct
 import { useGetNewsQuery } from "../api/authNews";
 import { Alert, Col, Row, Spinner } from "react-bootstrap";
 import NewsCard from "./shared/NewsCard";
+import Data from './../constant/data.json'
 
 export default function NewsFeed() {
   const {
@@ -16,29 +17,29 @@ export default function NewsFeed() {
     category: "business",
   });
 
-  if (isLoadingGetNews || isFetchingGetNews) {
-    return (
-      <div className="d-flex justify-content-center align-items-center min-vh-100">
-        <Spinner animation="border" role="status">
-          <span className="visually-hidden">Loading...</span>
-        </Spinner>
-      </div>
-    );
-  }
+  // if (isLoadingGetNews || isFetchingGetNews) {
+  //   return (
+  //     <div className="d-flex justify-content-center align-items-center min-vh-100">
+  //       <Spinner animation="border" role="status">
+  //         <span className="visually-hidden">Loading...</span>
+  //       </Spinner>
+  //     </div>
+  //   );
+  // }
 
-  if (isGetNewsError) {
-    return (
-      <Alert variant="danger">
-        <Alert.Heading>Error</Alert.Heading>
-        <p>{GetNewsError.message}</p>
-      </Alert>
-    );
-  }
+  // if (isGetNewsError) {
+  //   return (
+  //     <Alert variant="danger">
+  //       <Alert.Heading>Error</Alert.Heading>
+  //       <p>{GetNewsError.message}</p>
+  //     </Alert>
+  //   );
+  // }
 
   return (
    
           <Row>
-          {GetNewsData?.articles?.map((article, index) => ( 
+          {Data?.articles?.map((article, index) => ( 
             <Col xs={12} sm={6} md={4} className="mb-4">
               <NewsCard
                 urlToImage={article.urlToImage}
