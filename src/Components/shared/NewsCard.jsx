@@ -17,7 +17,18 @@ export default function NewsCard({
 }) {
   return (
     <Card className={`w-100 w-sm-${width} d-flex flex-${direction} border-1 rounded-3 p-0`} style={{ height: `${height}px`, overflow: 'hidden' }}>
-      <Card.Img src={urlToImage || Logo} alt={title} className={`${direction === 'column' ? 'h-50' : 'h-100'} img-fluid`} />
+     <div
+  style={{
+    backgroundImage: `url(${urlToImage || Logo})`,
+    height: direction === 'column' ? '50%' : '100%',
+    backgroundSize: 'contain', 
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat' 
+  }}
+
+/>
+
+      {/* <Card.Img src={urlToImage || Logo} alt={title} className={`${direction === 'column' ? 'h-50' : 'h-100'} img-fluid `} style={{objectFit:''}} /> */}
       <Card.Body className="d-flex flex-column p-2">
         <Card.Title as="h4" className="text-truncate">{title}</Card.Title>
         <Card.Text className="text-truncate">{description}</Card.Text>

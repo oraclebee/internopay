@@ -9,8 +9,8 @@ export default function Layout() {
   return (
     <React.Fragment>
     <Header/>
-    <SliderComponent/>
-    <Container fluid='md'>
+    {/* <SliderComponent/> */}
+    <Container fluid='lg'>
     <Outlet/>
     </Container>
     </React.Fragment>

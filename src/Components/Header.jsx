@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
-import { Navbar, Nav, NavDropdown, Container, Button, Row, Col } from "react-bootstrap";
+import { Navbar, Nav, NavDropdown, Container, Button, Row, Col, Form } from "react-bootstrap";
 import Logo from "../Resources/Images/internopay_logo.png";
 import "../Resources/ChatPage.css"; // Import custom CSS for styling
 import { FaTimes } from "react-icons/fa";
@@ -14,37 +14,24 @@ function Header() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container fluid>
-        <Row className="w-100 align-items-center">
-          <Col xs={1} className="d-lg-none">
-            <Navbar.Toggle
-              onClick={() => setIsCollapsed(!isCollapsed)}
-              aria-controls="basic-navbar-nav"
-            >
-              {isCollapsed ? <IoMenuSharp /> : <FaTimes />}
-            </Navbar.Toggle>
-          </Col>
-          <Col xs={3} sm={1}>
+     
             <Navbar.Brand as={Link} to="/">
               <img
                 src={Logo}
                 alt="Internopay Logo"
                 className=""
-                style={{ height: "30px", width: "100px" }}
+                style={{  width: "150px" }}
               />
             </Navbar.Brand>
-          </Col>
-          <Col xs="auto" className="ms-auto">
-            <Button variant="secondary" size="sm" className="me-2 p-2">
-              Sign In
-            </Button>
-            <Button variant="outline-primary" size="sm" className="me-2 p-2">
-              Subscribe
-            </Button>
-            <Button variant="outline-primary" size="sm">
-              <FontAwesomeIcon icon={faSearch} />
-            </Button>
-          </Col>
-          <Col sm={12} className="mx-auto">
+         
+            <Navbar.Toggle
+              onClick={() => setIsCollapsed(!isCollapsed)}
+              aria-controls="basic-navbar-nav"
+            >
+              {isCollapsed ? <IoMenuSharp size={20}/> : <FaTimes size={20}/>}
+            </Navbar.Toggle>
+    
+          
             <Navbar.Collapse
               id="basic-navbar-nav"
               className={`mt-3 mt-lg-0 ${
@@ -85,9 +72,18 @@ function Header() {
                   Financial GPT
                 </NavLink>
               </Nav>
+              <Form>
+            <Button variant="secondary" size="sm" className="me-2 my-2 my-sm-0 d-block d-sm-inline ">
+              Sign In
+            </Button>
+            <Button variant="outline-primary" size="sm" className="me-2 my-2 my-sm-0 d-block d-sm-inline ">
+              Subscribe
+            </Button>
+            <Button variant="outline-primary" size="sm " className="me-2 my-2 my-sm-0 d-block d-sm-inline ">
+              <FontAwesomeIcon icon={faSearch} />
+            </Button>
+            </Form>
             </Navbar.Collapse>
-          </Col>
-        </Row>
       </Container>
     </Navbar>
   );
