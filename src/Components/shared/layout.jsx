@@ -10,7 +10,7 @@ export default function Layout() {
     <React.Fragment>
     <Header/>
     {/* <SliderComponent/> */}
-    <Container fluid='lg'>
+    <Container fluid='lg' style={{marginTop:'80px'}}>
     <Outlet/>
     </Container>
     </React.Fragment>

@@ -12,6 +12,7 @@ import BusinessweekPage from './Pages/BusinessweekPage';
 import OpinionPage from './Pages/OpinionPage';
 import RegisterPage from './Pages/RegisterPage';
 import LoginPage from './Pages/LoginPage';
+import SendMoneyPage from './Pages/SendMoneyPage';
 
 
 
@@ -30,6 +31,7 @@ function App() {
           <Route path='/opinion' element={<OpinionPage />} />
           <Route path='/internopaygpt' element={<InterNoPayGPT />} />
           <Route path='/register' element={<RegisterPage />} />
+          <Route path='/send_money' element={<SendMoneyPage />} />
           <Route path='/login' element={<LoginPage />} />
           <Route path='*' element={<Home />} />
           </Route>

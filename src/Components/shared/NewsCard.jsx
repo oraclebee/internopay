@@ -34,7 +34,6 @@ export default function NewsCard({
         <Card.Title as="h4" className="text-truncate">{title}</Card.Title>
         <Card.Text className="text-truncate">{description}</Card.Text>
         <Card.Footer className="mt-auto d-flex flex-column flex-sm-row justify-content-between align-items-center p-2">
-          {/* <small className="text-muted">{moment(publishedAt).fromNow()}</small> */}
           <small className="text-muted">{format(publishedAt)}</small>
           <a href={url} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-sm">Read more</a>
         </Card.Footer>
